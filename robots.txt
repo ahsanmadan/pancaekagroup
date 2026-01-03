@@ -1,0 +1,17 @@
+# Panca Eka Group - Robots.txt
+# Website: https://pancaekagroup.com
+
+# Allow all search engines to crawl all pages
+User-agent: *
+Allow: /
+
+# Disallow admin/private areas (add as needed)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Sitemap location
+Sitemap: https://pancaekagroup.com/sitemap.xml
+
+# Crawl delay (optional - be gentle on server)
+Crawl-delay: 1
